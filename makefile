@@ -1,7 +1,9 @@
 LIBS = -lm
-OBJS = houseRobber.o
+OBJS = countPrimes.o
 main: ${OBJS}
+	rm -f main	
 	gcc -o main ${OBJS} ${LIBS}
-	rm -f main ${OBJS} ${LIBS}
+	rm -f ${OBJS} ${LIBS}	
+	./main
 clean:
-	rm -f  main ${OBJS}
+	rm -f  a.out main ${OBJS}
