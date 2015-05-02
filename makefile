@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = uniquePathsII
+NAME = triangle
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
