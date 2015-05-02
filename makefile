@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = houseRobber
+NAME = climbingStairs
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
