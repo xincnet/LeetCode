@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = climbingStairs
+NAME = uniquePathsII
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
