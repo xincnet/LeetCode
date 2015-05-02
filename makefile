@@ -10,8 +10,3 @@ main: ${OBJS}
 	rm -f main	
 clean:
 	rm -f  a.out main ${OBJS}
-git:
-	echo ${commitContext}
-	export commitContext
-	commitContext=10
-	echo ${commitewontext}
