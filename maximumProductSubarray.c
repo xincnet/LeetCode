@@ -60,7 +60,7 @@ int main()
 	int num = 10;
 	int* input = (int*) malloc(num * sizeof(int));
 
-	srand((unsigned) time(NULL)); //用时间做种，每次产生随机数不一样
+	srand((unsigned) time(NULL)); 
 
 	for (int i = 0; i < num; i++)
 	{
