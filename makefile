@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = triangle
+NAME = bestTimeToBuyAndSellStock
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
