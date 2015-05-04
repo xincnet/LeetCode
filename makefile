@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = bestTimeToBuyAndSellStock
+NAME = interleavingString
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
