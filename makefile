@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = interleavingString
+NAME = distinctSubsequences
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
