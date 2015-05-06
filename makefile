@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = distinctSubsequences
+NAME = bestTimeToBuyAndSellStockIII
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
