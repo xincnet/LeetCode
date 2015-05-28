@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = bestTimeToBuyAndSellStockIII
+NAME = symmetricTree
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
