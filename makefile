@@ -1,9 +1,9 @@
 LIBS = -lm
-NAME = maximumDepthofBinaryTree
+NAME = validateBinarySearchTree
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
-	rm -f ${OBJS} ${LIBS}	
+	rm -f ${OBJS}	
 	#----------------------------------#
 	./main
 	#----------------------------------#

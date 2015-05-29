@@ -42,7 +42,7 @@ int minDepth(struct TreeNode* root)
 			struct TreeLink* tmp = malloc(sizeof(struct TreeLink));
 			tmp->curr = top->curr->left;
 			tmp->next = NULL;
-			tmp->depth = top->depth + 1;q
+			tmp->depth = top->depth + 1;
 			tail->next = tmp;
 			tail = tmp;
 		}
