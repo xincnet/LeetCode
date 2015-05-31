@@ -1,5 +1,5 @@
-LIBS = -lm
-NAME = validateBinarySearchTree
+LIBS =-lm
+NAME = convertSortedArraytoBinarySearchTree
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
