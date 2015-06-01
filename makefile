@@ -1,5 +1,5 @@
-LIBS =-lm
-NAME = convertSortedArraytoBinarySearchTree
+LIBS = -lm
+NAME = constructBinaryTreefromPreorderandInorderTraversal
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
