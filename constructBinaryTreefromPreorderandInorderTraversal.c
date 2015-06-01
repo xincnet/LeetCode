@@ -1,7 +1,6 @@
 /*
    NO.105
    Given preorder and inorder traversal of a tree, construct the binary tree.
-
 Note:
 You may assume that duplicates do not exist in the tree.
  */
@@ -10,7 +9,7 @@ You may assume that duplicates do not exist in the tree.
 #include "linkStack.h"
 struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize) 
 {
-	if (!preorder || !inorder || preorderSize != inorderSize || inorderSize) return NULL;
+	if (!preorder || !inorder || preorderSize != inorderSize || 0 == inorderSize) return NULL;
 	
 	PtrToStackNode preStack = creatStack();
 	int indexPre = 0;
