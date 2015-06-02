@@ -106,6 +106,6 @@ int main()
 	a1->right = b1;
 	
 	int size = 0;
-	inorderTraversal(a1, size);
+	inorderTraversal(a1, &size);
 	return 0;
 }
