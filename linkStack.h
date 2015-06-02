@@ -1,6 +1,6 @@
 #ifndef _LINKSTACK_H_ 
 #define _LINKSTACK_H_
-
+#include <stdlib.h>
 struct TreeNode 
 {
 	int val;

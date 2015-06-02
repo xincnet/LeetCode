@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = constructBinaryTreefromPreorderandInorderTraversal
+NAME = binaryTreeInorderTraversal
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
