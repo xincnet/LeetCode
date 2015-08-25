@@ -1,5 +1,5 @@
 LIBS = -lm
-NAME = binaryTreeInorderTraversal
+NAME = kthLargestElementInAnArray
 OBJS = ${NAME}.o
 main: ${OBJS}
 	gcc -o main ${OBJS} ${LIBS}
